@@ -112,8 +112,6 @@
    transition: all .4s ease;
 }
 /* Finish sub-menu styles */
-
-
 /* Finish Header Right */
 
 
@@ -191,3 +189,118 @@
 }
 /* Finish header left */
 /* Finish navbar Styles */
+
+
+/* Start landing section */
+
+.container{
+   display: flex;
+   justify-content: space-between;
+   padding: 0 16px;
+   background: linear-gradient(135deg,rgb(143, 183, 230) 0%,rgb(255, 255, 255) 0%,rgba(138, 166, 221, 0.418) 100%);;;
+   gap: 20px;
+   padding-top: 5%;
+}
+
+.landing-cover{
+   flex: 2;
+   order: 1;
+   
+}
+.landing-content{
+   flex: 2;
+}
+.landing__image{
+   width: 600px;
+}
+.landing-content{
+   display: flex;
+   flex-direction: column;
+   padding: 0 60px;
+   gap: 20px;
+   
+}
+.landing-content-lable{
+   display: flex;
+   align-items: center;
+   background-color:var(--white-color);
+   width:fit-content;
+   padding: 10px;
+   border: 1px solid transparent;
+   font-size: 1.8rem;
+   border-radius: 50px;
+   color: rgba(39, 39, 39, 0.705);
+   
+}
+.landing-content-lable:hover{
+   border:1px solid var(--primary-color) ;
+   color: rgba(39, 39, 39, 0.705);
+}
+.landing-content-lable span{
+   color: var(--primary-color);
+}
+
+.landing-content-lable-icon{
+   color: var(--primary-color);
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   border: 1px solid var(--primary-color);
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   margin-left: 10px;
+    
+}
+.landing-content-title{
+   font-size: 6rem;
+   width: 70%;
+   color: rgb(39, 39, 39);
+   font-weight: 700;
+}
+.landing-content-subtitle{
+   font-size: 2.5rem;
+   margin-top: 20px;
+   color: rgb(58, 58, 58);
+   width: 75%;
+   line-height: 1.5;
+}
+
+.landing__content-btn{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 55%;
+   margin-top: 20px;
+}
+.landing__content-btn-start{
+   background-color: #1e87f0;
+   color: var(--white-color);
+   padding: 20px 30px;
+   border-radius: 50px;
+   font-size: 1.8rem;
+   transition: .2s ease;
+}
+.landing__content-btn-start:hover{
+   color: var(--white-color);
+   background-color: #025ab3;
+}
+
+.landing__content-btn-link{
+   color: var(--white-color);
+   padding: 20px 30px;
+   border-radius: 50px;
+   font-size: 1.8rem;
+   transition: .3s ease;
+   border: 1px solid var(--primary-color);
+   color: var(--primary-color);
+}
+.landing__content-btn-link:hover{
+   color: var(--white-color);
+   background-color:var(--primary-color);
+}
+
+
+
+
+/* Finish landing section */
