@@ -193,7 +193,7 @@
 /* Start landing section */
 .landing-section{
    background: linear-gradient(135deg,rgb(143, 183, 230) 0%,rgb(255, 255, 255) 0%,rgba(138, 166, 221, 0.418) 100%);
-   padding: 0 40px;
+   
 }
 
 .landing-section .container{
@@ -217,7 +217,7 @@
 .landing-content{
    display: flex;
    flex-direction: column;
-   padding: 0 60px;
+   /* padding: 0 60px; */
    gap: 20px;
    
 }
@@ -254,8 +254,8 @@
     
 }
 .landing-content-title{
-   font-size: 6rem;
-   width: 70%;
+   font-size: 7rem;
+   width: 90%;
    color: rgb(39, 39, 39);
    font-weight: 700;
 }
@@ -306,10 +306,16 @@
 /* <!-- Start Lastest Course --> */
 .courses{
    margin: 40px;
-   padding: 100px;
+   padding: 100px 0 ;
   
 }
-.courses-top{
+.courses .container{
+   display: flex;
+   flex-direction: column;
+}
+
+.courses-header{
+   width: 100%;
    display: flex;
    align-items: center;
    justify-content: space-between;
