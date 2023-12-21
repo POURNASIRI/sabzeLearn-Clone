@@ -437,3 +437,21 @@
 }
 
 /* <!-- Finish Lastest Course --> */
+
+
+/* about us start */
+.about-us{
+   margin-top: 20px;
+}
+.about-us__header-title{
+   font-size: 3.5rem;
+   font-weight: 500;
+   color: rgba(39, 39, 39, 0.829);
+}
+.about-us__header-text{
+   font-size: 2rem;
+   color: rgba(39, 39, 39, 0.685);
+   font-weight: 600;
+   margin-top: 10px;
+}
+/* about us finish */
