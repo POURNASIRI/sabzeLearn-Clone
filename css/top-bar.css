@@ -506,5 +506,13 @@
 /* about us finish */
 
 /* start popular courses */
+.popular-courses{
+   margin-top: 20px;
+}
+.popular-courses-header__title{
+   font-size: 3.5rem;
+   color: rgba(39, 39, 39, 0.829);
+}
+   
 
 /* finish popular courses */
