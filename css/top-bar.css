@@ -513,6 +513,15 @@
    font-size: 3.5rem;
    color: rgba(39, 39, 39, 0.829);
 }
+
+.swiper-slide .course-box{
+   margin: 0 13px;
+   box-shadow: 0 0 10px rgba(168, 172, 185, alpha);
+ }
+.swiper-slide .course-box:hover{
+   transform: translateY(0);
+ }
+
    
 
 /* finish popular courses */
